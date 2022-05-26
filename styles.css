@@ -19,6 +19,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
+    margin-right: 250px;
+    margin-bottom: 110px;
 }
 
 
@@ -30,6 +32,7 @@ header {
     max-height: 50px;
     display: flex;
     flex: 1 0 60%;
+    margin-bottom: 70px;
 }
 
 .awesome {
@@ -37,6 +40,7 @@ header {
     color: #F9FAF8;
     font-weight: 900;
     margin-left: 100px;
+    margin-bottom: 0px;
 }
 
 .subtext {
@@ -45,6 +49,7 @@ header {
     display: flex;
     align-self: flex-end;
     margin-left: 100px;
+    margin-top: -50px
 }
 
 a {
@@ -54,6 +59,12 @@ a {
     display: flex;
     align-self: flex-start;
     margin-left: 70px;
+}
+
+img {
+    width: 600px;
+    max-height: 300px;
+    margin-top: 80px;
 }
 
 .quote {
@@ -102,5 +113,29 @@ button {
 .bottom {
    border: 2px solid white;
    border-radius: 5px;
-   margin-left: 250px;
+   margin-left: 400px;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-right: 80px;
+}
+
+.random {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.subtext-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
 }
